@@ -1,0 +1,173 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Trinh Xuan Khanh
+ID: s3927152
+Acknowledgement: none.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/157be64f48.js" crossorigin="anonymous"></script>
+    <title>Alpha Store</title>
+</head>
+<body>
+  <header>
+<!------------------------------navigation start------------------------------------->
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"> <img src="picture/Home/AlphaStoreLogo.png" alt="AlphaStoreLogo"><h1>Spiral Bookstore</h1></label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a class="active" href="Category.html">Category</a>
+            <ul class="dropdown">
+              <li><a href="Fiction.html">Fiction</a></li>
+              <li><a href="Non-fiction.html">Non-fiction</a></li>
+              <li><a href="ChildrenBook.html">Children's books</a></li>
+              <li><a href="BusinessAndEconomic.html">Business and economic</a></li>
+            </ul>
+          </li>
+          <li><a href="Bookdetail.html">Book detail</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="search-box">
+          <form>
+            <input type="text" name="" placeholder="Search">
+            <input type="submit" name="" value="Search" >
+          </form>
+        </div>
+      </nav>
+<!------------------------------navigation end-------------------------------------->
+
+<!------------------------------Banner start---------------------------------->
+      <div class="Category-Banner">
+        <img src="picture/Category/banner/banner.png" alt="CategoryBanner">
+      </div>
+<!------------------------------Banner end------------------------------------>
+  </header>
+
+
+<!-------------------------------Category 1 start--------------------------------------->
+  <main>
+    <section id="Historical_fiction">
+      <div class="box-fiction">
+        <button class="fiction-title1" onclick="location.href='Fiction.html'"><h1>Fiction</h1></button>
+        <button class="fiction-title2"  onclick="location.href='Fiction.html'">Historical Fiction</button>
+        
+        <div>
+          <a href="Bookdetail.html" class="category-overlay1">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay2">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay3">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay4">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay5">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay6">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <img class="historical_fiction1" src="picture/Category/Fiction/historical_fiction1.jpg" alt="fiction1">
+        <img class="historical_fiction2" src="picture/Category/Fiction/Historical_fiction2.png" alt="fiction2">
+        <img class="historical_fiction3" src="picture/Category/Fiction/historical_fiction3.png" alt="fiction3">
+        <img class="historical_fiction4" src="picture/Category/Fiction/historical_fiction4.png" alt="fiction4">
+        <img class="historical_fiction5" src="picture/Category/Fiction/historical_fiction5.png" alt="fiction5">
+        <img class="hictorical_fiction6" src="picture/Category/Fiction/historical_fiction6.jpg" alt="fiction6">
+      </div>
+      <button onclick="location.href='Fiction.html'" class=" show-more-link">Show more</button>
+<!-------------------------------Category 1 end--------------------------------------->
+
+
+<!-------------------------------Category 2 start--------------------------------------->
+      <div class="box-business">
+        <button class="business-title1" onclick="location.href='BusinessAndEconomic.html'"><h1>Business and economic</h1></button>
+        <button class="business-title2" onclick="location.href='BusinessAndEconomic.html'">Leadership</button>
+        <div>
+          <a href="#" class="category-overlay7">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay8">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay9">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay10">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay11">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="category-overlay12">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <img class="leadership1" src="picture/Category/BusinessAndEconomic/BusinessAndEconomic.jpg" alt="BusinessAndEconomic1">
+        <img class="leadership2" src="picture/Category/BusinessAndEconomic/BusinessAndEconomic2.jpeg" alt="BusinessAndEconomic2">
+        <img class="leadership3" src="picture/Category/BusinessAndEconomic/BusinessAndEconomic3.jpg" alt="BusinessAndEconomic3">
+        <img class="leadership4" src="picture/Category/BusinessAndEconomic/BusinessAndEconomic4.jpg" alt="BusinessAndEconomic4">
+        <img class="leadership5" src="picture/Category/BusinessAndEconomic/BusinessAndEconomic5.jpg" alt="BusinessAndEconomic5">
+        <img class="leadership6" src="picture/Category/BusinessAndEconomic/BusinessAndEconomic6.jpg" alt="BusinessAndEconomic6">
+      </div>
+    </section>
+<!-------------------------------Category 2 end--------------------------------------->
+
+    <button onclick="location.href='BusinessAndEconomic.html'" class="show-more category-show-more">Show more</button>
+  </main>
+<!--------------------------------Footer---------------------------------------->
+    <footer>
+      <h1 class="footer-navbar">SITE LINKS</h1>
+        <br>
+        <br>
+      <div class="footer-navbar-link">
+        <a  href="#">|About Us</a>
+        <a  href="#">|Privacy Policy</a>
+        <a  href="#">|Terms</a>
+        <a  href="#">|Copyright</a>
+        <a  href="Contact.html">|Contact Us</a>
+      </div>
+    </footer>  
+<!-------------------------------Footer end------------------------------------->               
+</body>
+</html>

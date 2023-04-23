@@ -1,0 +1,278 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Trinh Xuan Khanh
+ID: s3927152
+Acknowledgement: none.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/157be64f48.js" crossorigin="anonymous"></script>
+    <title>Spiral Bookstore</title>
+</head>
+<body>
+    <header>
+<!--------------------------------------------Navigation start-------------------------------------------------->
+        <nav class="book-detail-nav">
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo"><img src="picture/Home/AlphaStoreLogo.png" alt="AlphaStoreLogo"><h1>Spiral Bookstore</h1></label>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="Category.html">Category</a>
+              <ul class="dropdown">
+                <li><a href="Fiction.html">Fiction</a></li>
+                <li><a href="Non-fiction.html">Non-fiction</a></li>
+                <li><a href="ChildrenBook.html">Children's books</a></li>
+                <li><a href="BusinessAndEconomic.html">Business and economic</a></li>
+              </ul>
+            </li>
+            <li><a class="active" href="Bookdetail.html">Book detail</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+          <div class="search-box">
+            <form>
+              <input type="text" name="" placeholder="Search">
+              <input type="submit" name="" value="Search" >
+            </form>
+          </div>
+        </nav>
+<!---------------------------------------------Navigation end-------------------------------------------------->
+    </header>
+    <main>
+<!--------------------------------------------Book detail main start---------------------------------------------->
+      <section class="book-detail1">
+        <a href="index.html">Home<i class="fa-solid fa-greater-than" style="color: #000000;"></i></a>
+        <a href="Fiction.html">Fiction<i class="fa-solid fa-greater-than" style="color: #000000;"></i></a>
+        <a href="Fiction.html">Historical Fiction<i class="fa-solid fa-greater-than" style="color: #000000;"></i></a>
+        <a href="Bookdetail.html">The Nightingale</a>
+        <div class="book-detail2">
+          <div>
+          </div>
+            <button class="Book-image">
+              <img id="Book-image" src="picture/Book_detail/The_Nightingale/The_Nightingale1.jpg" alt="The_Nightingale1">
+            </button>
+            <button class="Book-image1">
+              <img id="Book-image1" src="picture/Book_detail/The_Nightingale/The_Nightingale2.jpeg" alt="The_Nightingale2">
+            </button>
+            <button class="Book-image2">
+              <img id="Book-image2" src="picture/Book_detail/The_Nightingale/The_Nightingale3.jpg" alt="The_Nightingale3">
+            </button>
+            <button class="Book-image3">
+              <img id="Book-image3" src="picture/Book_detail/The_Nightingale/The_Nightingale4.png" alt="The_Nightingale4">
+            </button>
+        </div>
+        <div>
+          <div class="box-description1">
+          </div>
+          <div class="book-name1">
+            <h1>
+              The Nightingale
+            </h1>
+            <h2>
+              <i>Author: Kristin Hannah</i>
+              <p><b>About author: </b>Kristin Hannah is an American author known for her bestselling novels that explore the complexities of family relationships and the endurance of the human spirit. 
+              She has written over 20 books, including The Nightingale, which has sold over 4 million copies worldwide.
+              </p>
+            </h2>
+            <h3>Category: <a href="Fiction.html">Historical Fiction</a></h3>
+          </div>
+          <button class="price1">
+            <h1>16.99</h1>
+          </button>
+          <button class="add-to-cart">Add to cart
+            <i class="fa-solid fa-cart-arrow-down" style="color: #000000;"></i>
+          </button>
+          <div class="add-to-cart2">
+            <label for="currency-select">Choose your currency</label>
+            <select name="currency" id="currency-select">
+              <option value></option>
+              <option value="Dollar">$</option>
+              <option value="Euro">€</option>
+              <option value="Pound">£</option>
+              <option value="Chinese Yuan">¥</option>
+              <option value="Rubble sign">₽</option>
+              <option value="VietNamDong">VND</option>
+            </select>
+          </div>
+        </div>
+        <div class="book-description2">
+          <h1>
+            The Nightingale
+          </h1>
+          <p>Vianne Mauriac says goodbye to her husband, Antoine, as he leaves the quiet town of Carriveau to go to the Front. 
+            She doesn't think the Nazis will come into France...But they do attack, with hordes of soldiers moving, convoys of trucks and tanks, and planes that fill the sky and drop bombs on the innocent. 
+            When a German captain takes over Vianne's house, she and her daughter have to live with the enemy or lose everything. 
+            Without food, money, or hope, and with danger growing all around them, she has to make impossible choices after impossible choices to keep her family alive.
+            Isabelle, Vianne's sister, is an 18-year-old troublemaker who is looking for a cause with all the wildfire of youth. 
+            While thousands of Parisians march into the unknown dangers of war, she meets Gatan, 
+            a rebel who thinks the French can fight the Nazis from within France, and she falls in love as only young people can: totally. 
+            But when he betrays her, Isabelle joins the Resistance and never looks back, putting her life in danger over and over again to save others.</p>
+        </div>
+      </section>
+<!------------------------------------------Book detail main end------------------------------------------------>
+
+
+<!-------------------------------------------Recommendation start----------------------------------------------->
+<section class="recommendation">
+  <div class="product"> 
+    <h2 class="product-category"><b>YOU MAY LIKE</b></h2>
+    <button class="pre-btn"><img src="picture/Book_detail/recommendation/arrow.svg" alt="pre-btn"></button>
+    <button class="nxt-btn"><img src="picture/Book_detail/recommendation/arrow.svg" alt="nxt-btn"></button>
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec1.png" class="product-thumb" alt="Dune">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Dune</h2>
+                <p class="product-short-description">Frank Herbert</p>
+                <span class="price">$13.5</span><span class="actual-price">$27</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec2.jpg" class="product-thumb" alt="The Lord Of The Rings">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">The Lord Of The Rings</h2>
+                <p class="product-short-description">J.R.R. Tolkien</p>
+                <span class="price">$22.9</span><span class="actual-price">$45.8</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec3.png" class="product-thumb" alt="The Alice Network">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">The Alice Network</h2>
+                <p class="product-short-description">Kate Quinn</p>
+                <span class="price">$16.99</span><span class="actual-price">$34</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec4.webp" class="product-thumb" alt="Ender's game">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Ender's game</h2>
+                <p class="product-short-description">Orson Scott Card</p>
+                <span class="price">$7.99</span><span class="actual-price">$16</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec5.png" class="product-thumb" alt="Steve Jobs">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">Steve Jobs</h2>
+                <p class="product-short-description">Walter Isaacson</p>
+                <span class="price">$17.99</span><span class="actual-price">$36</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec6.jpg" class="product-thumb" alt="The Lean Startup">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">The Lean Startup</h2>
+                <p class="product-short-description">Eric Ries</p>
+                <span class="price">$18</span><span class="actual-price">$36</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec7.jpg" class="product-thumb" alt="The Hunger Game Trilogy">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">The Hunger Game Trilogy</h2>
+                <p class="product-short-description">Suzanne Collins</p>
+                <span class="price">$34.99</span><span class="actual-price">$70</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec8.jpg" class="product-thumb" alt="The Fault in Our Star">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">The Fault in Our Star</h2>
+                <p class="product-short-description">John Green</p>
+                <span class="price">$12.99</span><span class="actual-price">$26</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec9.jpg" class="product-thumb" alt="The Story of Ruby Bridges">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">The Story of Ruby Bridges</h2>
+                <p class="product-short-description">Robert Coles</p>
+                <span class="price">$8.99</span><span class="actual-price">$18</span>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <span class="discount-tag">50% off</span>
+                <img src="picture/Book_detail/recommendation/rec10.jpg" class="product-thumb" alt="The Boy Who Harnessed the Wind">
+                <button class="card-btn">View book</button>
+            </div>
+            <div class="product-info">
+                <h2 class="product-brand">The Boy Who Harnessed the Wind</h2>
+                <p class="product-short-description">William Kamkwamba and Bryan Mealer</p>
+                <span class="price">$16.99</span><span class="actual-price">$34</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-------------------------------------------Recommendation end------------------------------------------------->
+    </main>
+  <script src="script.js"></script>
+    <!--------------------------------Footer---------------------------------------->
+    <footer class="book-detail-footer">
+      <h1 class="footer-navbar">SITE LINKS</h1>
+        <br>
+        <br>
+      <div class="footer-navbar-link">
+        <a  href="#">|About Us</a>
+        <a  href="#">|Privacy Policy</a>
+        <a  href="#">|Terms</a>
+        <a  href="#">|Copyright</a>
+        <a  href="Contact.html">|Contact Us</a>
+      </div>
+    </footer>  
+<!-------------------------------Footer end------------------------------------->                  
+</body>
+</html>

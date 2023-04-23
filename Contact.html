@@ -1,0 +1,136 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Trinh Xuan Khanh
+ID: s3927152
+Acknowledgement: none.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/157be64f48.js" crossorigin="anonymous"></script>
+    <title>Alpha Store</title>
+</head>
+<body class="contact-page-background">
+    <header>
+<!------------------------------navigation start------------------------------------->
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo"> <img src="picture/Home/AlphaStoreLogo.png" alt="AlphaStoreLogo"><h1>Spiral Bookstore</h1></label>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+              <a href="Category.html">Category</a>
+              <ul class="dropdown">
+                <li><a href="Fiction.html">Fiction</a></li>
+                <li><a href="Non-fiction.html">Non-fiction</a></li>
+                <li><a href="Childrenbook.html">Children's books</a></li>
+                <li><a href="BusinessAndEconomic.html">Business and economic</a></li>
+              </ul>
+            </li>
+            <li><a href="Bookdetail.html">Book detail</a></li>
+            <li><a class="active" href="Contact.html">Contact</a></li>
+          </ul>
+          <div class="search-box">
+            <form>
+              <input type="text" name="" placeholder="Search">
+              <input type="submit" name="" value="Search" >
+            </form>
+          </div>
+        </nav>
+    </header>
+<!------------------------------navigation end-------------------------------------->
+
+
+<!-------------------------------Contact fomr start------------------------------------->
+    <main>
+      <div class="contact-container1">
+        <div class="contact-container2">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="contact-container3">
+          <form>
+            <div class="contact-container4">
+              <label for="contact-purpose">Contact Purpose:</label>
+              <select id="contact-purpose" name="contact-purpose" required>
+                <option value="sell-books">I want to sell books</option>
+                <option value="buy-books">I want to buy books</option>
+              </select>
+            </div>
+            <div class="contact-container5">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Enter your name" name="name" required>
+            </div>
+            <div class="contact-container6">
+              <label for="email"><i class="fa-solid fa-envelope" style="color: #000000;"></i> Email</label>
+              <input type="email" id="email" placeholder="Example@gmail.com" name="email" required>
+            </div>
+            <div class="contact-container7">
+              <label for="phone"><i class="fa-solid fa-phone" style="color: #000000;"></i> Phone</label>
+              <input type="tel" id="phone" placeholder="(+84)" name="phone" required>
+            </div>
+            <fieldset class="contact-container8">
+              <legend>Contact Preference</legend>
+              <div class="by-email">
+                <input type="checkbox" id="by-email" name="contact-preference" value="email" checked required>
+                <label for="by-email">By email</label>
+              </div>
+              <div class="by-phone">
+                <input type="checkbox" id="by-phone" name="contact-preference" value="phone" required >
+                <label for="by-phone">By phone</label>
+              </div>
+            </fieldset>
+        
+            <fieldset class="contact-container9">
+              <legend>Receive Weekly Newsletter</legend>
+              <div class="yes-newsletter">
+                <input type="radio" id="yes-newsletter" name="newsletter" value="yes" checked required>
+                <label for="yes-newsletter">Yes</label><br>
+              </div>
+              <div class="no-newsletter">
+                <input type="radio" id="no-newsletter" name="newsletter" value="no" required>
+                <label for="no-newsletter">No</label>
+              </div>
+            </fieldset>
+            <div class="contact-container10">
+              <label for="extra-notes">Extra Notes</label>
+              <textarea id="extra-notes" placeholder="Enter your extra note " name="extra-notes"></textarea>
+            </div>
+            <button class="submit" type="submit">Submit</button>
+            <button class="reset" type="reset">Reset</button>
+          </form>
+        </div>
+      </div>
+    </main>
+<!--------------------------------Contact fomr end-------------------------------------->
+
+
+<!--------------------------------Footer---------------------------------------->
+    <footer>
+      <h1 class="footer-navbar">SITE LINKS</h1>
+        <br>
+        <br>
+      <div class="footer-navbar-link">
+        <a  href="#">|About Us</a>
+        <a  href="#">|Privacy Policy</a>
+        <a  href="#">|Terms</a>
+        <a  href="#">|Copyright</a>
+        <a  href="Contact.html">|Contact Us</a>
+      </div>
+    </footer>    
+<!-------------------------------Footer end------------------------------------->               
+</body>
+</html>

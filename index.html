@@ -1,0 +1,156 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Trinh Xuan Khanh
+ID: s3927152
+Acknowledgement: none.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/157be64f48.js" crossorigin="anonymous"></script>
+    <title>Alpha Store</title>
+</head>
+<body>
+    <header>
+<!------------------------------navigation start------------------------------------->
+        <nav>
+          <input type="checkbox" id="check">
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+          <label class="logo"> <img src="picture/Home/AlphaStoreLogo.png" alt="AlphaStoreLogo"><h1>Spiral Bookstore</h1></label>
+          <ul>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li>
+              <a href="Category.html">Category</a>
+              <ul class="dropdown">
+                <li><a href="Fiction.html">Fiction</a></li>
+                <li><a href="Non-fiction.html">Non-fiction</a></li>
+                <li><a href="ChildrenBook.html">Children's books</a></li>
+                <li><a href="BusinessAndEconomic.html">Business and economic</a></li>
+              </ul>
+            </li>
+            <li><a href="Bookdetail.html">Book detail</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+          </ul>
+          <div class="search-box">
+            <form>
+              <input type="text" name="" placeholder="Search">
+              <input type="submit" name="" value="Search" >
+            </form>
+          </div>
+        </nav>
+<!------------------------------navigation end-------------------------------------->
+
+<!------------------------------Banner start---------------------------------->
+        <video autoplay loop muted class="Home-banner">
+          <source src="video/banner.mp4">
+        </video>
+<!------------------------------Banner end------------------------------------>
+    </header>
+<!------------------------------Fiction start--------------------------------->
+    <main>
+      <section>
+        <div>
+          <span>
+            <button onclick="location.href='Fiction.html'" class="button1">Fiction</button>
+            
+            <div>
+              <a href="Bookdetail.html" class="home-overlay1">
+                <i class="fa-solid fa-book-open"></i>
+              </a>
+            </div>
+            <div>
+              <img class="img1" src="picture/Home/Fiction/home1.jpg" alt="home1">
+            </div>
+              
+            <div>
+              <a href="subBookDetail/Dune.html" class="home-overlay2">
+                <i class="fa-solid fa-book-open"></i>
+              </a>
+            </div>
+            <div>
+              <img class="img2" src="picture/Home/Fiction/home2.png" alt="home2">
+            </div>
+            
+            <div>
+              <a href="subBookDetail/TheLordOfTheRings.html" class="home-overlay3">
+                <i class="fa-solid fa-book-open"></i>
+              </a>
+            </div>
+            <div>
+              <img class="img3" src="picture/Home/Fiction/home3.jpg" alt="home3">
+            </div>
+          
+          </span>
+        </div>
+      </section>
+<!------------------------------Fiction end----------------------------------->
+
+<!-------------------------Children's books start----------------------------->
+      <section>
+        <div>
+          <span>
+            <button onclick="location.href='Childrenbook.html'" class="button2">Children's books</button>
+            
+            <div>
+              <a href="subBookDetail/WhoWasAlbertEinstein.html" class="home-overlay4">
+                <i class="fa-solid fa-book-open"></i>
+              </a>
+            </div>
+            <div>
+              <img class="img4" src="picture/Home/Children's_books/home4.jpg" alt="home4">
+            </div>
+            
+            <div>
+              <a href="subBookDetail/HarryPotterAndThePhilosophersStone.html" class="home-overlay5">
+                <i class="fa-solid fa-book-open"></i>
+              </a>
+            </div>
+            <div>
+              <img class="img5" src="picture/Home/Children's_books/home5.png" alt="home5">
+            </div>
+            
+            <div>
+              <a href="subBookDetail/TheStoryOfRubyBridges.html" class="home-overlay6">
+                <i class="fa-solid fa-book-open"></i>
+              </a>
+            </div>
+            <div>
+            <img class="img6" src="picture/Home/Children's_books/home6.jpg" alt="home6">
+            </div>
+
+          </span>
+        </div>
+      </section>
+    </main>
+<!-------------------------Children's books end------------------------------->         
+    <button onclick="location.href='Category.html'" class="show-more">Show more</button>
+
+<!--------------------------------Footer---------------------------------------->
+    <footer>
+      <h1 class="footer-navbar">SITE LINKS</h1>
+        <br>
+        <br>
+      <div class="footer-navbar-link">
+        <a  href="#">|About Us</a>
+        <a  href="#">|Privacy Policy</a>
+        <a  href="#">|Terms</a>
+        <a  href="#">|Copyright</a>
+        <a  href="Contact.html">|Contact Us</a>
+      </div>
+    </footer>    
+<!-------------------------------Footer end------------------------------------->   
+</body>
+</html>

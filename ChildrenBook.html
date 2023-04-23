@@ -1,0 +1,216 @@
+<!--
+RMIT University Vietnam
+Course: COSC2430 Web Programming
+Semester: 2023A
+Assessment: Assignment 1
+Author: Trinh Xuan Khanh
+ID: s3927152
+Acknowledgement: none.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type ="text/css" href="style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/157be64f48.js" crossorigin="anonymous"></script>
+    <title>Alpha Store</title>
+</head>
+<body>
+  <header>
+<!------------------------------navigation start------------------------------------->
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"> <img src="picture/Home/AlphaStoreLogo.png" alt="AlphaStoreLogo"><h1>Spiral Bookstore</h1></label>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a class="active" href="Category.html">Category</a>
+            <ul class="dropdown">
+              <li><a href="Fiction.html">Fiction</a></li>
+              <li><a href="Non-fiction.html">Non-fiction</a></li>
+              <li><a class="active" href="ChildrenBook.html">Children's books</a></li>
+              <li><a href="BusinessAndEconomic.html">Business and economic</a></li>
+            </ul>
+          </li>
+          <li><a href="Bookdetail.html">Book detail</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="search-box">
+          <form>
+            <input type="text" name="" placeholder="Search">
+            <input type="submit" name="" value="Search" >
+          </form>
+        </div>
+      </nav>
+<!------------------------------navigation end-------------------------------------->
+
+<!------------------------------Banner start---------------------------------->
+      <div class="Category-Banner">
+        <img src="picture/subpage/children'sBook/background.webp" alt="CategoryBanner">
+      </div>
+<!------------------------------Banner end------------------------------------>
+  </header>
+  <main>
+    <section id="Childrenbook">
+<!-------------------------------------------------picture books start--------------------------------------------------->
+      <div class="box-subpage">
+        <button class="fiction-title1" onclick="location.href='ChildrenBook.html'"><h1>Children's books</h1></button>
+        <button class="fiction-title2"  onclick="location.href='ChildrenBook.html'">Middle-grade</button>
+<!-----------------------------overlay---------------------------------------->
+        <div>
+          <a href="#" class="subcategory-overlay1">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay2">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay3">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay4">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay5">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay6">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+<!-----------------------------overlay end------------------------------------>
+        <img class="historical_fiction1" src="picture/subpage/children'sBook/MiddleGrade/img1.png" alt="Middle-grade1">
+        <img class="historical_fiction2" src="picture/subpage/children'sBook/MiddleGrade/img2.jpg" alt="Middle-grade2">
+        <img class="historical_fiction3" src="picture/subpage/children'sBook/MiddleGrade/img3.jpg" alt="Middle-grade3">
+        <img class="historical_fiction4" src="picture/subpage/children'sBook/MiddleGrade/img4.png" alt="Middle-grade4">
+        <img class="historical_fiction5" src="picture/subpage/children'sBook/MiddleGrade/img5.jfif" alt="Middle-grade5">
+        <img class="hictorical_fiction6" src="picture/subpage/children'sBook/MiddleGrade/img6.jpg" alt="Middle-grade6">
+      </div>
+<!-------------------------------------------------picture books start--------------------------------------------------->
+
+
+<!---------------------------------------------------non-fiction start-------------------------------------------------->
+      <div class="box-subpage2">
+        <button class="fiction-title2"  onclick="location.href='ChildrenBook.html'">Non-fiction</button>
+<!-----------------------------overlay---------------------------------------->
+        <div>
+          <a href="#" class="subcategory-overlay1">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay2">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay3">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay4">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay5">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay6">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+<!-----------------------------overlay end------------------------------------>
+        <img class="historical_fiction1" src="picture/subpage/children'sBook/non-fiction/img1.png" alt="non-fiction1">
+        <img class="historical_fiction2" src="picture/subpage/children'sBook/non-fiction/img2.png" alt="non-fiction2">
+        <img class="historical_fiction3" src="picture/subpage/children'sBook/non-fiction/img3.jpg" alt="non-fiction3">
+        <img class="historical_fiction4" src="picture/subpage/children'sBook/non-fiction/img4.jpg" alt="non-fiction4">
+        <img class="historical_fiction5" src="picture/subpage/children'sBook/non-fiction/img5.jpg" alt="non-fiction5">
+        <img class="hictorical_fiction6" src="picture/subpage/children'sBook/non-fiction/img6.jpg" alt="non-fiction6">
+      </div>
+<!---------------------------------------------------non-fiction start-------------------------------------------------->
+
+
+<!----------------------------------------------------Young adult start------------------------------------------------->
+      <div class="box-subpage3">
+        <button class="fiction-title2"  onclick="location.href='ChildrenBook.html'">Young adult</button>
+<!-----------------------------overlay---------------------------------------->
+        <div>
+          <a href="#" class="subcategory-overlay1">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay2">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay3">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay4">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay5">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+        <div>
+          <a href="#" class="subcategory-overlay6">
+            <i class="fa-solid fa-book-open"></i>
+          </a>
+        </div>
+<!-----------------------------overlay end------------------------------------>
+        <img class="historical_fiction1" src="picture/subpage/children'sBook/YoungAdult/img1.png" alt="Young adult1">
+        <img class="historical_fiction2" src="picture/subpage/children'sBook/YoungAdult/img2.png" alt="Young adult2">
+        <img class="historical_fiction3" src="picture/subpage/children'sBook/YoungAdult/img3.png" alt="Young adult3">
+        <img class="historical_fiction4" src="picture/subpage/children'sBook/YoungAdult/img4.jpg" alt="Young adult4">
+        <img class="historical_fiction5" src="picture/subpage/children'sBook/YoungAdult/img5.jpg" alt="Young adult5">
+        <img class="hictorical_fiction6" src="picture/subpage/children'sBook/YoungAdult/img6.jpg" alt="Young adult6">
+      </div>
+<!----------------------------------------------------Young adult end--------------------------------------------------->
+
+    </section>
+  </main>
+<!--------------------------------Footer---------------------------------------->
+    <footer class="subcategory-footer">
+      <h1 class="footer-navbar">SITE LINKS</h1>
+        <br>
+        <br>
+      <div class="footer-navbar-link">
+        <a  href="#">|About Us</a>
+        <a  href="#">|Privacy Policy</a>
+        <a  href="#">|Terms</a>
+        <a  href="#">|Copyright</a>
+        <a  href="Contact.html">|Contact Us</a>
+      </div>
+    </footer>  
+<!-------------------------------Footer end------------------------------------->               
+</body>
+</html>
